@@ -59,7 +59,7 @@ XGBoost achieved the lowest RMSE and MAE among the three models, followed by Pro
 
 ### Actual vs Predicted Prices — Test Period
 
-![Actual vs Predicted Average Prices](Images/actual_vs_predicted_model_benchmark_phase1)
+![Actual vs Predicted Average Prices](Images/actual_vs_predicted_model_benchmark_phase1.png)
 
 **Phase A outcome:** This experiment provided a comparative understanding of forecasting models using a feature-rich apparel dataset.
 
@@ -226,7 +226,7 @@ The following visualization compares XGBoost and Naive residuals across the four
 
 #### Aggregate Residuals Over Time
 
-![Aggregate Residuals Over Time](Images/phase2_graphs/forecasting_optimization/results/residuals_over_time.png)
+![Aggregate Residuals Over Time](Images/phase2_graphs/forecasting_optimization/residuals_over_time.png)
 
 ### 7. Inventory Parameter Estimation
 
