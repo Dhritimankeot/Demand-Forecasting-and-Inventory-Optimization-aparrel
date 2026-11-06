@@ -19,7 +19,7 @@ The work combines data preparation, time-series forecasting, residual analysis, 
 
 ### Complete Project Workflow
 
-![Complete Project Workflow](images/workflow_pipeline.png)
+![Complete Project Workflow](Images/workflow_pipeline.png)
 
 ## Phase A — Average Product Price Forecasting
 
@@ -59,7 +59,7 @@ XGBoost achieved the lowest RMSE and MAE among the three models, followed by Pro
 
 ### Actual vs Predicted Prices — Test Period
 
-![Actual vs Predicted Average Prices](results/phase1_actual_vs_predicted_prices.png)
+![Actual vs Predicted Average Prices](Images/actual_vs_predicted_model_benchmark_phase1.png)
 
 **Phase A outcome:** This experiment provided a comparative understanding of forecasting models using a feature-rich apparel dataset.
 
@@ -141,7 +141,7 @@ Important fields include:
 
 It was used to compare inventory replenishment policies through simulation.
 
-For detailed dataset descriptions, refer to [`data/README.md`](data/README.md).
+For detailed dataset descriptions, refer to [`datasets/README.md`](datasets/README.md).
 
 ### 4. Feature Engineering
 
@@ -216,17 +216,17 @@ These residuals were subsequently used to estimate safety stock and reorder poin
 
 #### Residual Distribution
 
-![Residual Distribution](results/residual_distribution.png)
+![Residual Distribution](Images/phase2_graphs/forecasting_optimization/residual_distribution.png)
 
 #### Category-wise Residuals Over Time
 
 The following visualization compares XGBoost and Naive residuals across the four apparel categories.
 
-![Category-wise Residual Analysis](results/category_wise_residuals.png)
+![Category-wise Residual Analysis](Images/phase2_graphs/forecasting_optimization/residual_over_time_test_all_category.png)
 
 #### Aggregate Residuals Over Time
 
-![Aggregate Residuals Over Time](results/aggregate_residuals_over_time.png)
+![Aggregate Residuals Over Time](Images/phase2_graphs/forecasting_optimization/residuals_over_time.png)
 
 ### 7. Inventory Parameter Estimation
 
@@ -346,7 +346,7 @@ This highlighted an important distinction:
 
 #### Inventory Level Over Time
 
-![Inventory Level Over Time](results/inventory_level_over_time.png)
+![Inventory Level Over Time](Images/phase2_graphs/simulation_pre_thesis/inventory_level_overtime.png)
 
 ---
 
@@ -404,7 +404,7 @@ The API also provides interactive documentation through Swagger UI.
 
 #### FastAPI Swagger Interface
 
-![FastAPI Swagger UI](images/fastapi_swagger.png)
+![FastAPI Swagger UI](Images/deployment/swagger_ui.png)
 
 ### 11. Building an Interactive Frontend with Streamlit
 
@@ -424,7 +424,7 @@ The application allows users to:
 
 #### Streamlit Application
 
-![Streamlit Frontend](images/streamlit_frontend.png)
+![Streamlit Frontend](Images/deployment/streamlit_frontend.png)
 
 #### Application Workflow
 
