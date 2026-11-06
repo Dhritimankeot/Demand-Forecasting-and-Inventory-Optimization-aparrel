@@ -1,0 +1,57 @@
+
+# Virtual environments
+venv/
+.venv/
+env/
+myenv/
+API/thesis_env/
+thesis_env/
+ticketingenv/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python cache files
+API/__pycache__/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Testing and coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE settings
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+
+# Build and distribution files
+build/
+dist/
+*.egg-info/
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+
+# Model and large generated artifacts
+*.joblib
+*.pkl
+*.pickle
+*.h5
+*.onnx
